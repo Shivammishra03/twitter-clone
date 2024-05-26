@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@heroicons/vue':
+    specifier: v1
+    version: 1.0.6(vue@3.4.21)
   nuxt:
     specifier: ^3.11.1
     version: 3.11.1(@unocss/reset@0.58.6)(floating-vue@5.2.2)(unocss@0.58.6)(vite@5.2.4)
@@ -674,6 +677,14 @@ packages:
 
   /@floating-ui/utils@0.2.1:
     resolution: {integrity: sha512-9TANp6GPoMtYzQdt54kfAyMmz1+osLlXdg2ENroU7zzrtflTLrrC/lgrIfaSe+Wu0b89GKccT7vxXA0MoAIO+Q==}
+    dev: false
+
+  /@heroicons/vue@1.0.6(vue@3.4.21):
+    resolution: {integrity: sha512-ng2YcCQrdoQWEFpw+ipFl2rZo8mZ56v0T5+MyfQQvNqfKChwgP6DMloZLW+rl17GEcHkE3H82UTAMKBKZr4+WA==}
+    peerDependencies:
+      vue: '>= 3'
+    dependencies:
+      vue: 3.4.21
     dev: false
 
   /@iconify/types@2.0.0:
